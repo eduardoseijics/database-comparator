@@ -1,0 +1,21 @@
+<div class="col-sm-9 col-lg-3">
+  <div class="card" id="card-{{cardId}}">
+    <div class="card-header pb-0">
+      <h3 class="h3 text-center">{{cardTitle}}</h3>
+    </div>
+    <div class="card-body">
+      <input class="form-control mb-3" type="text"     name="db{{cardId}}[host]"     placeholder="Host">
+      <input class="form-control mb-3" type="text"     name="db{{cardId}}[porta]"    placeholder="Port">
+      <input class="form-control mb-3" type="text"     name="db{{cardId}}[user]"     placeholder="User">
+      <input class="form-control mb-3" type="password" name="db{{cardId}}[password]" placeholder="Password">
+      <input class="form-control mb-3" type="text"     name="db{{cardId}}[name]"     placeholder="Database Name">
+      <input class="form-control mb-3" type="text"     name="db{{cardId}}[table]"    placeholder="Table Name">
+      <div class="btn-container d-flex justify-content-between" type="button">
+        <button class="btn btn-sm btn-danger" data-clean="{{cardId}}">
+          <i class="fa fa-times"></i> Clean
+        </button>
+        <button class="btn btn-link" data-copy="{{cardId}}" type="button">Copy credentials</button>
+      </div>
+    </div>
+  </div>
+</div>

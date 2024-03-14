@@ -1,0 +1,14 @@
+{
+    "name": "eduardoseiji/database-comparator",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo Seiji"
+        }
+    ]
+}
